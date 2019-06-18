@@ -10,18 +10,78 @@
 
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <!-- Import Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i|Raleway&display=swap&subset=latin-ext" rel="stylesheet">
 </head>
 
-<body>
+<style>
+    /* style header */
+    h1 {
+        font-family: 'Arvo', serif;
+    }
 
-    <h1>Christian Ferguson</h1>
+    /* Style Menu Bar */
+    .menu-bar {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .menu-bar li {
+        float: left;
+    }
+    a {
+        display: block;
+        padding: 8px;
+    }
+    li a {
+        display: block;
+        background-color: #3a3a3a;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+        background-color: #111;
+    }
+
+    /* Style Main Text */
+    .main-text {
+        font-family: 'Raleway', sans-serif;
+    }
     
-    <ul>
-        <li>Leader</li>
-        <li>Creator</li>
-        <li>Trainer</li>
-        <li>Apostoic</li>
-    </ul>
+</style>
+
+<body>
+    <!-- Header -->
+    <div>
+        <header>
+            <h1>Christian Ferguson</h1>
+        </header>
+        <!-- Navigation bar -->
+        <nav>
+            <ul class="menu-bar">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <br>
+    <br>
+    <!-- Bulleted list of attributes -->
+    <div id="attribute-summary">
+        <ul class="main-text">
+            <li>Leader</li>
+            <li>Creator</li>
+            <li>Developer</li>
+            <li>Trainer</li>
+            <li>Apostoic</li>
+        </ul>
+    </div>
 
 </body>
 
