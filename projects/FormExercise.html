@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--metadata will go here-->
+  <meta charset="UTF-8">
+  <title>Form Exercise</title>
+</head>
+
+<body>
+  <h1>Register</h1>
+  <form action="" method="post">
+
+    <label for="first">First Name</label>
+    <input name="firstName" id="first" type="text" placeholder="John" required>
+    <label for="last">Last Name</label>
+    <input name="lastName" id="last" type="text" placeholder="Smith" required>
+    <br>
+    <label for="male">Male</label>
+    <input name="gender" id="male" type="radio" value="m">
+    <label for="female">Female</label>
+    <input name="gender" id="female" type="radio" value="f">
+    <br>
+    <label for="email">Email</label>
+    <input name="email" id="email" type="email" placeholder="jsmith@example.com" required>
+    <label for="pass">Password</label>
+    <input name="password" id="pass" type="password" pattern=".{5,10}" placeholder="Between 5-10 characters" required>
+    <br>
+    <label for="month">Month</label>
+    <select id="month" name="month">
+      <option value="1">January</option>
+      <option value="2">February</option>
+      <option value="3">March</option>
+      <option value="4">April</option>
+      <option value="5">May</option>
+    </select>
+    <label for="day">Day</label>
+    <select id="day" name="day">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+    <label for="year">Year</label>
+    <select id="year" name="year">
+      <option value="2016">2016</option>
+      <option value="2017">2017</option>
+      <option value="2018">2018</option>
+      <option value="2019">2019</option>
+      <option value="2020">2020</option>
+    </select>
+    <br>
+    <label for="agree">I agree to the <a
+        href="https://www.thrillist.com/tech/nation/terms-and-conditions-youve-mindlessly-agreed-to-fine-print-in-end-user-license-agreements">terms
+        and conditions</a></label>
+    <input name="terms" id="agree" type="checkbox" value="accept" required>
+    <br>
+    <input type="submit">
+  </form>
+</body>
+
+</html>
