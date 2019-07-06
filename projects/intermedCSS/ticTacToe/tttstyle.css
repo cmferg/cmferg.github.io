@@ -1,0 +1,29 @@
+body {
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 5em;
+    text-align: center;
+}
+
+table {
+    max-width: 80%;
+    margin: 0px auto 0px auto;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 90px 90px 90px 90px;
+    margin: 0px 0px 0px 0px;
+}
+
+td:nth-of-type(2) {
+    border-left: black 2px solid;
+    border-right: black 2px solid;
+}
+
+tr:nth-of-type(2) {
+    border-top: black 2px solid;
+    border-bottom: black 2px solid;
+}
